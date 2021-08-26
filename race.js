@@ -21,9 +21,9 @@ export default class Race {
       console.log("ES EMPATE");
     } else {
       if (this._player1.getPos() > this._player2.getPos()) {
-        console.log("EL GANADOR ES PLAYER1");
+        console.log("EL GANADOR ES PLAYER 1");
       } else {
-        console.log("EL GANADOR ES PLAYER2");
+        console.log("EL GANADOR ES PLAYER 2");
       }
     }
   }
