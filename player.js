@@ -1,14 +1,14 @@
 export default class Player {
   constructor(pos) {
-    this._pos = Number(pos);
+    this._pos = pos;
   }
 
   getPos() {
-    return Number(this._pos);
+    return this._pos;
   }
 
   setPos(pos) {
-    this._pos = Number(pos);
+    this._pos = pos;
   }
 
   throwDice() {

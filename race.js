@@ -7,7 +7,6 @@ export default class Race {
   run() {
     do {
       let prob = this._player1.throwDice();
-
       this._player1.setPos(this._player1.getPos() + prob);
 
       let prob2 = this._player2.throwDice();
